@@ -18,7 +18,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EvolutionAPI/evolution-api.git"
+    "url": "git+https://github.com/qikerrs/revolusi-api.git"
   },
   "keywords": [
     "chat",
@@ -42,9 +42,9 @@
   },
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/EvolutionAPI/evolution-api/issues"
+    "url": "https://github.com/qikerrs/revolusi-api/issues"
   },
-  "homepage": "https://github.com/EvolutionAPI/evolution-api#readme",
+  "homepage": "https://github.com/qikerrs/revolusi-api#readme",
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
     "@aws-sdk/client-sqs": "^3.569.0",
