@@ -2,9 +2,9 @@ version: "3.7"
 
 services:
   evolution_v2:
-    image: xbotero/evolution-api:v2.0.10
+    image: qikerrs/revolusi-api:v2.0.10
     volumes:
-      - evolution_instances:/evolution/instances
+      - revolusi_instances:/evolution/instances
     networks:
       - network_public
     environment:
@@ -137,7 +137,7 @@ services:
 volumes:
   evolution_instances:
     external: true
-    name: evolution_v2_data
+    name: revolusi_v2_data
 
 networks:
   network_public:
