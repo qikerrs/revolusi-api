@@ -1,5 +1,5 @@
 {
-  "name": "evolution-api",
+  "name": "revolusi-api",
   "version": "2.1.1",
   "description": "Rest api for communication with WhatsApp",
   "main": "./dist/main.js",
