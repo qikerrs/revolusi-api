@@ -1,15 +1,15 @@
 services:
   api:
-    container_name: evolution_api
-    image: evolution/api:local
+    container_name: revolusi_api
+    image: revolusi/api:local
     build: .
     restart: always
     ports:
       - 8080:8080
     volumes:
-      - evolution_instances:/evolution/instances
+      - revolusi_instances:/evolution/instances
     networks:
-      - evolution-net
+      - revolusi-net
     env_file:
       - .env
     expose:
@@ -20,6 +20,6 @@ volumes:
 
 
 networks:
-  evolution-net:
-    name: evolution-net
+  revolusi-net:
+    name: revolusi-net
     driver: bridge
