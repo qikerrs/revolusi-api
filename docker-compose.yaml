@@ -1,12 +1,12 @@
 services:
   api:
-    container_name: evolution_api
-    image: xbotero/evolution-api:v2.1.1
+    container_name: revolusi_api
+    image: qikerrs/revolusi-api:v2.1.1
     restart: always
     ports:
       - 8080:8080
     volumes:
-      - evolution_instances:/evolution/instances
+      - revolusi_instances:/evolution/instances
     networks:
       - evolution-net
     env_file:
@@ -20,5 +20,5 @@ volumes:
 
 networks:
   evolution-net:
-    name: evolution-net
+    name: revolusi-net
     driver: bridge
